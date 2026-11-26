@@ -1,0 +1,914 @@
+[
+  {
+    "task": "sudoku-hard",
+    "mode": "official_bf16",
+    "act_scaling": "dynamic",
+    "batch_size": 16,
+    "samples": 512,
+    "median_seconds": 1.0952,
+    "samples_per_second": 467.51,
+    "amortized_batch_ms": 34.22,
+    "output_positions_per_second": 41608.67,
+    "weight_vram_mib": {
+      "generator_mib": 98.66,
+      "vqvae_mib": 57.02,
+      "total_mib": 155.68
+    },
+    "peak_allocated_mib": 173.2,
+    "peak_reserved_mib": 754.0,
+    "completed": true
+  },
+  {
+    "task": "sudoku-hard",
+    "mode": "pure_bf16",
+    "act_scaling": "dynamic",
+    "batch_size": 16,
+    "samples": 512,
+    "median_seconds": 0.9491,
+    "samples_per_second": 539.45,
+    "amortized_batch_ms": 29.66,
+    "output_positions_per_second": 48011.17,
+    "weight_vram_mib": {
+      "generator_mib": 49.33,
+      "vqvae_mib": 28.51,
+      "total_mib": 77.84
+    },
+    "peak_allocated_mib": 96.75,
+    "peak_reserved_mib": 548.0,
+    "completed": true
+  },
+  {
+    "task": "sudoku-hard",
+    "mode": "coarse_bf16_fine_fp8",
+    "act_scaling": "dynamic",
+    "batch_size": 16,
+    "samples": 512,
+    "median_seconds": 1.074,
+    "samples_per_second": 476.74,
+    "amortized_batch_ms": 33.56,
+    "output_positions_per_second": 42430.2,
+    "weight_vram_mib": {
+      "generator_mib": 73.42,
+      "vqvae_mib": 28.49,
+      "total_mib": 101.9
+    },
+    "peak_allocated_mib": 120.89,
+    "peak_reserved_mib": 626.0,
+    "completed": true
+  },
+  {
+    "task": "sudoku-hard",
+    "mode": "coarse_bf16_fine_fp8",
+    "act_scaling": "static",
+    "batch_size": 16,
+    "samples": 512,
+    "median_seconds": 0.9211,
+    "samples_per_second": 555.84,
+    "amortized_batch_ms": 28.79,
+    "output_positions_per_second": 49469.57,
+    "weight_vram_mib": {
+      "generator_mib": 73.42,
+      "vqvae_mib": 28.49,
+      "total_mib": 101.9
+    },
+    "peak_allocated_mib": 120.9,
+    "peak_reserved_mib": 374.0,
+    "completed": true
+  },
+  {
+    "task": "sudoku-hard",
+    "mode": "coarse_bf16_fine_fp8_w8",
+    "act_scaling": "static",
+    "batch_size": 16,
+    "samples": 512,
+    "median_seconds": 1.0106,
+    "samples_per_second": 506.65,
+    "amortized_batch_ms": 31.58,
+    "output_positions_per_second": 45092.1,
+    "weight_vram_mib": {
+      "generator_mib": 25.17,
+      "vqvae_mib": 28.49,
+      "total_mib": 53.65
+    },
+    "peak_allocated_mib": 70.27,
+    "peak_reserved_mib": 284.0,
+    "completed": true
+  },
+  {
+    "task": "sudoku-hard",
+    "mode": "fp8_all",
+    "act_scaling": "static",
+    "batch_size": 16,
+    "samples": 512,
+    "median_seconds": 0.9123,
+    "samples_per_second": 561.23,
+    "amortized_batch_ms": 28.51,
+    "output_positions_per_second": 49949.08,
+    "weight_vram_mib": {
+      "generator_mib": 25.12,
+      "vqvae_mib": 28.46,
+      "total_mib": 53.58
+    },
+    "peak_allocated_mib": 70.21,
+    "peak_reserved_mib": 290.0,
+    "completed": true
+  },
+  {
+    "task": "sudoku-hard",
+    "mode": "official_bf16",
+    "act_scaling": "dynamic",
+    "batch_size": 64,
+    "samples": 512,
+    "median_seconds": 0.868,
+    "samples_per_second": 589.84,
+    "amortized_batch_ms": 108.5,
+    "output_positions_per_second": 52495.46,
+    "weight_vram_mib": {
+      "generator_mib": 98.66,
+      "vqvae_mib": 57.02,
+      "total_mib": 155.68
+    },
+    "peak_allocated_mib": 174.24,
+    "peak_reserved_mib": 2502.0,
+    "completed": true
+  },
+  {
+    "task": "sudoku-hard",
+    "mode": "pure_bf16",
+    "act_scaling": "dynamic",
+    "batch_size": 64,
+    "samples": 512,
+    "median_seconds": 0.7502,
+    "samples_per_second": 682.48,
+    "amortized_batch_ms": 93.78,
+    "output_positions_per_second": 60740.9,
+    "weight_vram_mib": {
+      "generator_mib": 49.33,
+      "vqvae_mib": 28.51,
+      "total_mib": 77.84
+    },
+    "peak_allocated_mib": 96.91,
+    "peak_reserved_mib": 1720.0,
+    "completed": true
+  },
+  {
+    "task": "sudoku-hard",
+    "mode": "coarse_bf16_fine_fp8",
+    "act_scaling": "dynamic",
+    "batch_size": 64,
+    "samples": 512,
+    "median_seconds": 0.8577,
+    "samples_per_second": 596.95,
+    "amortized_batch_ms": 107.21,
+    "output_positions_per_second": 53128.72,
+    "weight_vram_mib": {
+      "generator_mib": 73.42,
+      "vqvae_mib": 28.49,
+      "total_mib": 101.9
+    },
+    "peak_allocated_mib": 121.05,
+    "peak_reserved_mib": 1938.0,
+    "completed": true
+  },
+  {
+    "task": "sudoku-hard",
+    "mode": "coarse_bf16_fine_fp8",
+    "act_scaling": "static",
+    "batch_size": 64,
+    "samples": 512,
+    "median_seconds": 0.721,
+    "samples_per_second": 710.11,
+    "amortized_batch_ms": 90.13,
+    "output_positions_per_second": 63200.23,
+    "weight_vram_mib": {
+      "generator_mib": 73.42,
+      "vqvae_mib": 28.49,
+      "total_mib": 101.9
+    },
+    "peak_allocated_mib": 121.1,
+    "peak_reserved_mib": 894.0,
+    "completed": true
+  },
+  {
+    "task": "sudoku-hard",
+    "mode": "coarse_bf16_fine_fp8_w8",
+    "act_scaling": "static",
+    "batch_size": 64,
+    "samples": 512,
+    "median_seconds": 0.7321,
+    "samples_per_second": 699.33,
+    "amortized_batch_ms": 91.52,
+    "output_positions_per_second": 62240.74,
+    "weight_vram_mib": {
+      "generator_mib": 25.17,
+      "vqvae_mib": 28.49,
+      "total_mib": 53.65
+    },
+    "peak_allocated_mib": 70.47,
+    "peak_reserved_mib": 792.0,
+    "completed": true
+  },
+  {
+    "task": "sudoku-hard",
+    "mode": "fp8_all",
+    "act_scaling": "static",
+    "batch_size": 64,
+    "samples": 512,
+    "median_seconds": 0.7017,
+    "samples_per_second": 729.62,
+    "amortized_batch_ms": 87.72,
+    "output_positions_per_second": 64935.94,
+    "weight_vram_mib": {
+      "generator_mib": 25.12,
+      "vqvae_mib": 28.46,
+      "total_mib": 53.58
+    },
+    "peak_allocated_mib": 70.41,
+    "peak_reserved_mib": 780.0,
+    "completed": true
+  },
+  {
+    "task": "tinystories",
+    "mode": "official_bf16",
+    "act_scaling": "dynamic",
+    "batch_size": 16,
+    "samples": 512,
+    "median_seconds": 3.4893,
+    "samples_per_second": 146.73,
+    "amortized_batch_ms": 109.04,
+    "output_positions_per_second": 18781.88,
+    "weight_vram_mib": {
+      "generator_mib": 406.38,
+      "vqvae_mib": 211.55,
+      "total_mib": 617.93
+    },
+    "peak_allocated_mib": 646.41,
+    "peak_reserved_mib": 1362.0,
+    "completed": true
+  },
+  {
+    "task": "tinystories",
+    "mode": "pure_bf16",
+    "act_scaling": "dynamic",
+    "batch_size": 16,
+    "samples": 512,
+    "median_seconds": 2.9863,
+    "samples_per_second": 171.45,
+    "amortized_batch_ms": 93.32,
+    "output_positions_per_second": 21945.41,
+    "weight_vram_mib": {
+      "generator_mib": 203.2,
+      "vqvae_mib": 105.96,
+      "total_mib": 309.16
+    },
+    "peak_allocated_mib": 339.65,
+    "peak_reserved_mib": 970.0,
+    "completed": true
+  },
+  {
+    "task": "tinystories",
+    "mode": "coarse_bf16_fine_fp8",
+    "act_scaling": "dynamic",
+    "batch_size": 16,
+    "samples": 512,
+    "median_seconds": 3.0846,
+    "samples_per_second": 165.98,
+    "amortized_batch_ms": 96.39,
+    "output_positions_per_second": 21246.06,
+    "weight_vram_mib": {
+      "generator_mib": 273.8,
+      "vqvae_mib": 96.96,
+      "total_mib": 370.76
+    },
+    "peak_allocated_mib": 406.07,
+    "peak_reserved_mib": 934.0,
+    "completed": true
+  },
+  {
+    "task": "tinystories",
+    "mode": "coarse_bf16_fine_fp8",
+    "act_scaling": "static",
+    "batch_size": 16,
+    "samples": 512,
+    "median_seconds": 2.6523,
+    "samples_per_second": 193.04,
+    "amortized_batch_ms": 82.89,
+    "output_positions_per_second": 24708.91,
+    "weight_vram_mib": {
+      "generator_mib": 273.8,
+      "vqvae_mib": 96.96,
+      "total_mib": 370.76
+    },
+    "peak_allocated_mib": 406.07,
+    "peak_reserved_mib": 1044.0,
+    "completed": true
+  },
+  {
+    "task": "tinystories",
+    "mode": "coarse_bf16_fine_fp8_w8",
+    "act_scaling": "static",
+    "batch_size": 16,
+    "samples": 512,
+    "median_seconds": 2.9002,
+    "samples_per_second": 176.54,
+    "amortized_batch_ms": 90.63,
+    "output_positions_per_second": 22596.78,
+    "weight_vram_mib": {
+      "generator_mib": 111.24,
+      "vqvae_mib": 96.96,
+      "total_mib": 208.2
+    },
+    "peak_allocated_mib": 235.0,
+    "peak_reserved_mib": 904.0,
+    "completed": true
+  },
+  {
+    "task": "tinystories",
+    "mode": "fp8_all",
+    "act_scaling": "static",
+    "batch_size": 16,
+    "samples": 512,
+    "median_seconds": 2.5784,
+    "samples_per_second": 198.57,
+    "amortized_batch_ms": 80.58,
+    "output_positions_per_second": 25417.14,
+    "weight_vram_mib": {
+      "generator_mib": 102.33,
+      "vqvae_mib": 87.96,
+      "total_mib": 190.29
+    },
+    "peak_allocated_mib": 216.49,
+    "peak_reserved_mib": 864.0,
+    "completed": true
+  },
+  {
+    "task": "tinystories",
+    "mode": "official_bf16",
+    "act_scaling": "dynamic",
+    "batch_size": 64,
+    "samples": 512,
+    "median_seconds": 3.2636,
+    "samples_per_second": 156.88,
+    "amortized_batch_ms": 407.95,
+    "output_positions_per_second": 20080.75,
+    "weight_vram_mib": {
+      "generator_mib": 406.38,
+      "vqvae_mib": 211.55,
+      "total_mib": 617.93
+    },
+    "peak_allocated_mib": 646.46,
+    "peak_reserved_mib": 3476.0,
+    "completed": true
+  },
+  {
+    "task": "tinystories",
+    "mode": "pure_bf16",
+    "act_scaling": "dynamic",
+    "batch_size": 64,
+    "samples": 512,
+    "median_seconds": 2.8301,
+    "samples_per_second": 180.91,
+    "amortized_batch_ms": 353.76,
+    "output_positions_per_second": 23156.69,
+    "weight_vram_mib": {
+      "generator_mib": 203.2,
+      "vqvae_mib": 105.96,
+      "total_mib": 309.16
+    },
+    "peak_allocated_mib": 339.7,
+    "peak_reserved_mib": 2106.0,
+    "completed": true
+  },
+  {
+    "task": "tinystories",
+    "mode": "coarse_bf16_fine_fp8",
+    "act_scaling": "dynamic",
+    "batch_size": 64,
+    "samples": 512,
+    "median_seconds": 3.314,
+    "samples_per_second": 154.5,
+    "amortized_batch_ms": 414.25,
+    "output_positions_per_second": 19775.7,
+    "weight_vram_mib": {
+      "generator_mib": 273.8,
+      "vqvae_mib": 96.96,
+      "total_mib": 370.76
+    },
+    "peak_allocated_mib": 406.11,
+    "peak_reserved_mib": 2132.0,
+    "completed": true
+  },
+  {
+    "task": "tinystories",
+    "mode": "coarse_bf16_fine_fp8",
+    "act_scaling": "static",
+    "batch_size": 64,
+    "samples": 512,
+    "median_seconds": 2.6893,
+    "samples_per_second": 190.39,
+    "amortized_batch_ms": 336.16,
+    "output_positions_per_second": 24369.3,
+    "weight_vram_mib": {
+      "generator_mib": 273.8,
+      "vqvae_mib": 96.96,
+      "total_mib": 370.76
+    },
+    "peak_allocated_mib": 406.11,
+    "peak_reserved_mib": 2628.0,
+    "completed": true
+  },
+  {
+    "task": "tinystories",
+    "mode": "coarse_bf16_fine_fp8_w8",
+    "act_scaling": "static",
+    "batch_size": 64,
+    "samples": 512,
+    "median_seconds": 2.7362,
+    "samples_per_second": 187.12,
+    "amortized_batch_ms": 342.02,
+    "output_positions_per_second": 23951.88,
+    "weight_vram_mib": {
+      "generator_mib": 111.24,
+      "vqvae_mib": 96.96,
+      "total_mib": 208.2
+    },
+    "peak_allocated_mib": 235.05,
+    "peak_reserved_mib": 2490.0,
+    "completed": true
+  },
+  {
+    "task": "tinystories",
+    "mode": "fp8_all",
+    "act_scaling": "static",
+    "batch_size": 64,
+    "samples": 512,
+    "median_seconds": 2.6452,
+    "samples_per_second": 193.56,
+    "amortized_batch_ms": 330.65,
+    "output_positions_per_second": 24775.73,
+    "weight_vram_mib": {
+      "generator_mib": 102.33,
+      "vqvae_mib": 87.96,
+      "total_mib": 190.29
+    },
+    "peak_allocated_mib": 216.53,
+    "peak_reserved_mib": 2450.0,
+    "completed": true
+  },
+  {
+    "task": "wmt14",
+    "mode": "official_bf16",
+    "act_scaling": "dynamic",
+    "batch_size": 16,
+    "samples": 512,
+    "median_seconds": 2.8962,
+    "samples_per_second": 176.78,
+    "amortized_batch_ms": 90.51,
+    "output_positions_per_second": 11314.05,
+    "weight_vram_mib": {
+      "generator_mib": 459.09,
+      "vqvae_mib": 615.84,
+      "total_mib": 1074.93
+    },
+    "peak_allocated_mib": 1094.19,
+    "peak_reserved_mib": 2282.0,
+    "completed": true
+  },
+  {
+    "task": "wmt14",
+    "mode": "pure_bf16",
+    "act_scaling": "dynamic",
+    "batch_size": 16,
+    "samples": 512,
+    "median_seconds": 2.4242,
+    "samples_per_second": 211.21,
+    "amortized_batch_ms": 75.76,
+    "output_positions_per_second": 13517.13,
+    "weight_vram_mib": {
+      "generator_mib": 229.55,
+      "vqvae_mib": 308.09,
+      "total_mib": 537.64
+    },
+    "peak_allocated_mib": 569.19,
+    "peak_reserved_mib": 1912.0,
+    "completed": true
+  },
+  {
+    "task": "wmt14",
+    "mode": "coarse_bf16_fine_fp8",
+    "act_scaling": "dynamic",
+    "batch_size": 16,
+    "samples": 512,
+    "median_seconds": 2.5324,
+    "samples_per_second": 202.18,
+    "amortized_batch_ms": 79.14,
+    "output_positions_per_second": 12939.58,
+    "weight_vram_mib": {
+      "generator_mib": 292.84,
+      "vqvae_mib": 299.09,
+      "total_mib": 591.93
+    },
+    "peak_allocated_mib": 629.97,
+    "peak_reserved_mib": 2018.0,
+    "completed": true
+  },
+  {
+    "task": "wmt14",
+    "mode": "coarse_bf16_fine_fp8",
+    "act_scaling": "static",
+    "batch_size": 16,
+    "samples": 512,
+    "median_seconds": 2.2588,
+    "samples_per_second": 226.67,
+    "amortized_batch_ms": 70.59,
+    "output_positions_per_second": 14506.79,
+    "weight_vram_mib": {
+      "generator_mib": 292.84,
+      "vqvae_mib": 299.09,
+      "total_mib": 591.93
+    },
+    "peak_allocated_mib": 629.98,
+    "peak_reserved_mib": 1710.0,
+    "completed": true
+  },
+  {
+    "task": "wmt14",
+    "mode": "coarse_bf16_fine_fp8_w8",
+    "act_scaling": "static",
+    "batch_size": 16,
+    "samples": 512,
+    "median_seconds": 2.468,
+    "samples_per_second": 207.46,
+    "amortized_batch_ms": 77.12,
+    "output_positions_per_second": 13277.24,
+    "weight_vram_mib": {
+      "generator_mib": 130.27,
+      "vqvae_mib": 299.09,
+      "total_mib": 429.37
+    },
+    "peak_allocated_mib": 453.73,
+    "peak_reserved_mib": 1298.0,
+    "completed": true
+  },
+  {
+    "task": "wmt14",
+    "mode": "fp8_all",
+    "act_scaling": "static",
+    "batch_size": 16,
+    "samples": 512,
+    "median_seconds": 2.1722,
+    "samples_per_second": 235.71,
+    "amortized_batch_ms": 67.88,
+    "output_positions_per_second": 15085.34,
+    "weight_vram_mib": {
+      "generator_mib": 115.27,
+      "vqvae_mib": 291.59,
+      "total_mib": 406.87
+    },
+    "peak_allocated_mib": 430.67,
+    "peak_reserved_mib": 1276.0,
+    "completed": true
+  },
+  {
+    "task": "wmt14",
+    "mode": "official_bf16",
+    "act_scaling": "dynamic",
+    "batch_size": 64,
+    "samples": 512,
+    "median_seconds": 2.5463,
+    "samples_per_second": 201.07,
+    "amortized_batch_ms": 318.29,
+    "output_positions_per_second": 12868.78,
+    "weight_vram_mib": {
+      "generator_mib": 459.09,
+      "vqvae_mib": 615.84,
+      "total_mib": 1074.93
+    },
+    "peak_allocated_mib": 1094.36,
+    "peak_reserved_mib": 6128.0,
+    "completed": true
+  },
+  {
+    "task": "wmt14",
+    "mode": "pure_bf16",
+    "act_scaling": "dynamic",
+    "batch_size": 64,
+    "samples": 512,
+    "median_seconds": 2.2236,
+    "samples_per_second": 230.25,
+    "amortized_batch_ms": 277.96,
+    "output_positions_per_second": 14736.19,
+    "weight_vram_mib": {
+      "generator_mib": 229.55,
+      "vqvae_mib": 308.09,
+      "total_mib": 537.64
+    },
+    "peak_allocated_mib": 569.36,
+    "peak_reserved_mib": 4482.0,
+    "completed": true
+  },
+  {
+    "task": "wmt14",
+    "mode": "coarse_bf16_fine_fp8",
+    "act_scaling": "dynamic",
+    "batch_size": 64,
+    "samples": 512,
+    "median_seconds": 2.3501,
+    "samples_per_second": 217.87,
+    "amortized_batch_ms": 293.76,
+    "output_positions_per_second": 13943.38,
+    "weight_vram_mib": {
+      "generator_mib": 292.84,
+      "vqvae_mib": 299.09,
+      "total_mib": 591.93
+    },
+    "peak_allocated_mib": 630.13,
+    "peak_reserved_mib": 4810.0,
+    "completed": true
+  },
+  {
+    "task": "wmt14",
+    "mode": "coarse_bf16_fine_fp8",
+    "act_scaling": "static",
+    "batch_size": 64,
+    "samples": 512,
+    "median_seconds": 2.0596,
+    "samples_per_second": 248.59,
+    "amortized_batch_ms": 257.45,
+    "output_positions_per_second": 15909.72,
+    "weight_vram_mib": {
+      "generator_mib": 292.84,
+      "vqvae_mib": 299.09,
+      "total_mib": 591.93
+    },
+    "peak_allocated_mib": 630.18,
+    "peak_reserved_mib": 6428.0,
+    "completed": true
+  },
+  {
+    "task": "wmt14",
+    "mode": "coarse_bf16_fine_fp8_w8",
+    "act_scaling": "static",
+    "batch_size": 64,
+    "samples": 512,
+    "median_seconds": 2.1207,
+    "samples_per_second": 241.43,
+    "amortized_batch_ms": 265.09,
+    "output_positions_per_second": 15451.28,
+    "weight_vram_mib": {
+      "generator_mib": 130.27,
+      "vqvae_mib": 299.09,
+      "total_mib": 429.37
+    },
+    "peak_allocated_mib": 453.93,
+    "peak_reserved_mib": 6180.0,
+    "completed": true
+  },
+  {
+    "task": "wmt14",
+    "mode": "fp8_all",
+    "act_scaling": "static",
+    "batch_size": 64,
+    "samples": 512,
+    "median_seconds": 2.0082,
+    "samples_per_second": 254.96,
+    "amortized_batch_ms": 251.02,
+    "output_positions_per_second": 16317.4,
+    "weight_vram_mib": {
+      "generator_mib": 115.27,
+      "vqvae_mib": 291.59,
+      "total_mib": 406.87
+    },
+    "peak_allocated_mib": 430.87,
+    "peak_reserved_mib": 6222.0,
+    "completed": true
+  },
+  {
+    "task": "xsum",
+    "mode": "official_bf16",
+    "act_scaling": "dynamic",
+    "batch_size": 16,
+    "samples": 512,
+    "median_seconds": 5.7909,
+    "samples_per_second": 88.41,
+    "amortized_batch_ms": 180.97,
+    "output_positions_per_second": 4243.87,
+    "weight_vram_mib": {
+      "generator_mib": 394.53,
+      "vqvae_mib": 285.72,
+      "total_mib": 680.25
+    },
+    "peak_allocated_mib": 706.29,
+    "peak_reserved_mib": 3372.0,
+    "completed": true
+  },
+  {
+    "task": "xsum",
+    "mode": "pure_bf16",
+    "act_scaling": "dynamic",
+    "batch_size": 16,
+    "samples": 512,
+    "median_seconds": 4.7361,
+    "samples_per_second": 108.11,
+    "amortized_batch_ms": 148.0,
+    "output_positions_per_second": 5189.13,
+    "weight_vram_mib": {
+      "generator_mib": 197.27,
+      "vqvae_mib": 143.0,
+      "total_mib": 340.27
+    },
+    "peak_allocated_mib": 366.66,
+    "peak_reserved_mib": 2482.0,
+    "completed": true
+  },
+  {
+    "task": "xsum",
+    "mode": "coarse_bf16_fine_fp8",
+    "act_scaling": "dynamic",
+    "batch_size": 16,
+    "samples": 512,
+    "median_seconds": 4.8102,
+    "samples_per_second": 106.44,
+    "amortized_batch_ms": 150.32,
+    "output_positions_per_second": 5109.19,
+    "weight_vram_mib": {
+      "generator_mib": 269.65,
+      "vqvae_mib": 135.5,
+      "total_mib": 405.15
+    },
+    "peak_allocated_mib": 435.91,
+    "peak_reserved_mib": 2492.0,
+    "completed": true
+  },
+  {
+    "task": "xsum",
+    "mode": "coarse_bf16_fine_fp8",
+    "act_scaling": "static",
+    "batch_size": 16,
+    "samples": 512,
+    "median_seconds": 4.6082,
+    "samples_per_second": 111.11,
+    "amortized_batch_ms": 144.01,
+    "output_positions_per_second": 5333.08,
+    "weight_vram_mib": {
+      "generator_mib": 269.65,
+      "vqvae_mib": 135.5,
+      "total_mib": 405.15
+    },
+    "peak_allocated_mib": 435.97,
+    "peak_reserved_mib": 5056.0,
+    "completed": true
+  },
+  {
+    "task": "xsum",
+    "mode": "coarse_bf16_fine_fp8_w8",
+    "act_scaling": "static",
+    "batch_size": 16,
+    "samples": 512,
+    "median_seconds": 4.8217,
+    "samples_per_second": 106.19,
+    "amortized_batch_ms": 150.68,
+    "output_positions_per_second": 5096.98,
+    "weight_vram_mib": {
+      "generator_mib": 107.09,
+      "vqvae_mib": 135.5,
+      "total_mib": 242.59
+    },
+    "peak_allocated_mib": 267.47,
+    "peak_reserved_mib": 4952.0,
+    "completed": true
+  },
+  {
+    "task": "xsum",
+    "mode": "fp8_all",
+    "act_scaling": "static",
+    "batch_size": 16,
+    "samples": 512,
+    "median_seconds": 4.5071,
+    "samples_per_second": 113.6,
+    "amortized_batch_ms": 140.85,
+    "output_positions_per_second": 5452.74,
+    "weight_vram_mib": {
+      "generator_mib": 99.96,
+      "vqvae_mib": 129.5,
+      "total_mib": 229.46
+    },
+    "peak_allocated_mib": 254.11,
+    "peak_reserved_mib": 5024.0,
+    "completed": true
+  },
+  {
+    "task": "xsum",
+    "mode": "official_bf16",
+    "act_scaling": "dynamic",
+    "batch_size": 32,
+    "samples": 512,
+    "median_seconds": 5.7307,
+    "samples_per_second": 89.34,
+    "amortized_batch_ms": 358.17,
+    "output_positions_per_second": 4288.45,
+    "weight_vram_mib": {
+      "generator_mib": 394.53,
+      "vqvae_mib": 285.72,
+      "total_mib": 680.25
+    },
+    "peak_allocated_mib": 707.92,
+    "peak_reserved_mib": 5836.0,
+    "completed": true
+  },
+  {
+    "task": "xsum",
+    "mode": "pure_bf16",
+    "act_scaling": "dynamic",
+    "batch_size": 32,
+    "samples": 512,
+    "median_seconds": 4.8568,
+    "samples_per_second": 105.42,
+    "amortized_batch_ms": 303.55,
+    "output_positions_per_second": 5060.12,
+    "weight_vram_mib": {
+      "generator_mib": 197.27,
+      "vqvae_mib": 143.0,
+      "total_mib": 340.27
+    },
+    "peak_allocated_mib": 369.23,
+    "peak_reserved_mib": 4404.0,
+    "completed": true
+  },
+  {
+    "task": "xsum",
+    "mode": "coarse_bf16_fine_fp8",
+    "act_scaling": "dynamic",
+    "batch_size": 32,
+    "samples": 512,
+    "median_seconds": 4.8771,
+    "samples_per_second": 104.98,
+    "amortized_batch_ms": 304.82,
+    "output_positions_per_second": 5039.08,
+    "weight_vram_mib": {
+      "generator_mib": 269.65,
+      "vqvae_mib": 135.5,
+      "total_mib": 405.15
+    },
+    "peak_allocated_mib": 438.66,
+    "peak_reserved_mib": 4330.0,
+    "completed": true
+  },
+  {
+    "task": "xsum",
+    "mode": "coarse_bf16_fine_fp8",
+    "act_scaling": "static",
+    "batch_size": 32,
+    "samples": 512,
+    "median_seconds": 4.8224,
+    "samples_per_second": 106.17,
+    "amortized_batch_ms": 301.4,
+    "output_positions_per_second": 5096.23,
+    "weight_vram_mib": {
+      "generator_mib": 269.65,
+      "vqvae_mib": 135.5,
+      "total_mib": 405.15
+    },
+    "peak_allocated_mib": 438.79,
+    "peak_reserved_mib": 9682.0,
+    "completed": true
+  },
+  {
+    "task": "xsum",
+    "mode": "coarse_bf16_fine_fp8_w8",
+    "act_scaling": "static",
+    "batch_size": 32,
+    "samples": 512,
+    "median_seconds": 4.939,
+    "samples_per_second": 103.67,
+    "amortized_batch_ms": 308.68,
+    "output_positions_per_second": 4975.95,
+    "weight_vram_mib": {
+      "generator_mib": 107.09,
+      "vqvae_mib": 135.5,
+      "total_mib": 242.59
+    },
+    "peak_allocated_mib": 264.91,
+    "peak_reserved_mib": 9482.0,
+    "completed": true
+  },
+  {
+    "task": "xsum",
+    "mode": "fp8_all",
+    "act_scaling": "static",
+    "batch_size": 32,
+    "samples": 512,
+    "median_seconds": 4.7965,
+    "samples_per_second": 106.74,
+    "amortized_batch_ms": 299.78,
+    "output_positions_per_second": 5123.74,
+    "weight_vram_mib": {
+      "generator_mib": 99.96,
+      "vqvae_mib": 129.5,
+      "total_mib": 229.46
+    },
+    "peak_allocated_mib": 251.3,
+    "peak_reserved_mib": 9524.0,
+    "completed": true
+  }
+]

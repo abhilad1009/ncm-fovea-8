@@ -1,0 +1,18 @@
+{
+  "task": "xsum",
+  "mode": "official_bf16",
+  "act_scaling": "static",
+  "gen_seconds": 181.6,
+  "vram_weights_mib": {
+    "generator_mib": 394.53,
+    "vqvae_mib": 285.72,
+    "total_mib": 680.25
+  },
+  "metrics": {
+    "rouge1": 34.92,
+    "rouge2": 12.71,
+    "rougeL": 27.94,
+    "genppl": 82.71,
+    "avg_words": 20.7
+  }
+}

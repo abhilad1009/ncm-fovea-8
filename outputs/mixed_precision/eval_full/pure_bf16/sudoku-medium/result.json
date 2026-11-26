@@ -1,0 +1,18 @@
+{
+  "task": "sudoku-medium",
+  "mode": "pure_bf16",
+  "act_scaling": "static",
+  "gen_seconds": 12.49,
+  "vram_weights_mib": {
+    "generator_mib": 49.33,
+    "vqvae_mib": 28.51,
+    "total_mib": 77.84
+  },
+  "metrics": {
+    "solved_pct": 96.35,
+    "solved": 1927,
+    "total": 2000,
+    "cell_pct": 99.79,
+    "valid_pct": 96.35
+  }
+}

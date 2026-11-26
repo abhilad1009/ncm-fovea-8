@@ -1,0 +1,40 @@
+{
+  "sudoku-hard": {
+    "coarse_bf16_fine_fp8_w8": {
+      "task": "sudoku-hard",
+      "mode": "coarse_bf16_fine_fp8_w8",
+      "act_scaling": "static",
+      "gen_seconds": 17.84,
+      "vram_weights_mib": {
+        "generator_mib": 25.17,
+        "vqvae_mib": 28.49,
+        "total_mib": 53.65
+      },
+      "metrics": {
+        "solved_pct": 86.05,
+        "solved": 1721,
+        "total": 2000,
+        "cell_pct": 98.32,
+        "valid_pct": 86.05
+      }
+    },
+    "fp8_all": {
+      "task": "sudoku-hard",
+      "mode": "fp8_all",
+      "act_scaling": "static",
+      "gen_seconds": 18.41,
+      "vram_weights_mib": {
+        "generator_mib": 25.12,
+        "vqvae_mib": 28.46,
+        "total_mib": 53.58
+      },
+      "metrics": {
+        "solved_pct": 84.2,
+        "solved": 1684,
+        "total": 2000,
+        "cell_pct": 97.63,
+        "valid_pct": 84.2
+      }
+    }
+  }
+}

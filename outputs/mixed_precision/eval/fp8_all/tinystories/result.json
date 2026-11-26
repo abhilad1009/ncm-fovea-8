@@ -1,0 +1,18 @@
+{
+  "task": "tinystories",
+  "mode": "fp8_all",
+  "act_scaling": "dynamic",
+  "gen_seconds": 39.3,
+  "vram_weights_mib": {
+    "generator_mib": 102.33,
+    "vqvae_mib": 87.96,
+    "total_mib": 190.29
+  },
+  "metrics": {
+    "mean_genppl": 16.99,
+    "mean_entropy": 3.9744,
+    "std_genppl": 0.32,
+    "n_seeds": 5,
+    "n_samples": 1280
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "task": "xsum",
+  "mode": "fp8_all",
+  "act_scaling": "static",
+  "gen_seconds": 130.43,
+  "vram_weights_mib": {
+    "generator_mib": 99.96,
+    "vqvae_mib": 129.5,
+    "total_mib": 229.46
+  },
+  "metrics": {
+    "rouge1": 34.73,
+    "rouge2": 12.53,
+    "rougeL": 27.71,
+    "genppl": 83.44,
+    "avg_words": 20.7
+  }
+}

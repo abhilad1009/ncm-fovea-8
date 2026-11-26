@@ -1,0 +1,18 @@
+{
+  "task": "sudoku-hard",
+  "mode": "fp8_all",
+  "act_scaling": "static",
+  "gen_seconds": 14.33,
+  "vram_weights_mib": {
+    "generator_mib": 25.12,
+    "vqvae_mib": 28.46,
+    "total_mib": 53.58
+  },
+  "metrics": {
+    "solved_pct": 84.2,
+    "solved": 1684,
+    "total": 2000,
+    "cell_pct": 97.63,
+    "valid_pct": 84.2
+  }
+}

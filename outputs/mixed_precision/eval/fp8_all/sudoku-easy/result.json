@@ -1,0 +1,18 @@
+{
+  "task": "sudoku-easy",
+  "mode": "fp8_all",
+  "act_scaling": "dynamic",
+  "gen_seconds": 17.9,
+  "vram_weights_mib": {
+    "generator_mib": 25.12,
+    "vqvae_mib": 28.46,
+    "total_mib": 53.58
+  },
+  "metrics": {
+    "solved_pct": 99.3,
+    "solved": 1986,
+    "total": 2000,
+    "cell_pct": 99.84,
+    "valid_pct": 99.3
+  }
+}

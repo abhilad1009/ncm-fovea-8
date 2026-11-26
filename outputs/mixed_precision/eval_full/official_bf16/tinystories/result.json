@@ -1,0 +1,18 @@
+{
+  "task": "tinystories",
+  "mode": "official_bf16",
+  "act_scaling": "static",
+  "gen_seconds": 37.96,
+  "vram_weights_mib": {
+    "generator_mib": 406.38,
+    "vqvae_mib": 211.55,
+    "total_mib": 617.93
+  },
+  "metrics": {
+    "mean_genppl": 16.48,
+    "mean_entropy": 3.9745,
+    "std_genppl": 0.21,
+    "n_seeds": 5,
+    "n_samples": 1280
+  }
+}

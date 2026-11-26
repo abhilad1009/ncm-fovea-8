@@ -1,0 +1,17 @@
+{
+  "task": "wmt14",
+  "mode": "pure_bf16",
+  "act_scaling": "static",
+  "gen_seconds": 28.92,
+  "vram_weights_mib": {
+    "generator_mib": 229.55,
+    "vqvae_mib": 308.09,
+    "total_mib": 537.64
+  },
+  "metrics": {
+    "bleu": 21.65,
+    "bleu_lc": 22.52,
+    "chrf": 49.57,
+    "len_ratio": 0.937
+  }
+}
